@@ -1,0 +1,761 @@
+    @media(max-width:1200px) {
+        .start-img {
+            width: 100%;
+            height: auto;
+        }
+        #up .contain {
+            width: 100%;
+            margin: 0 auto;
+        }
+        #up .contain ul {
+            width: 100%;
+            height: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            -ms-flex-line-pack: center;
+                align-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+        }
+        #up ul li {
+            margin: 0;
+        }
+        #up a {
+            text-decoration: none;
+        }
+    }
+    
+    @media(min-width:1200px) {}
+    
+    @media(max-width:1199px) {
+        ul.text-filters li {
+            height: 15px;
+            float: left;
+            line-height: 15px;
+            color: #989898;
+            list-style-type: none;
+            padding: 0px;
+            margin-bottom: 0;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        ul.text-filters {
+            margin-bottom: 25px;
+        }
+        #sub-nav .btn {
+            display: none;
+        }
+        .car-wrap:after {
+            display: none;
+        }
+        .banks {
+            margin-top: 60px;
+            /* margin-left: 50px; */
+            /* margin-right: 50px; */
+            cursor: default;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -ms-flex-line-pack: center;
+                align-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+        }
+        .content {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -ms-flex-line-pack: center;
+                align-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+        }
+        .navbar > .contain {
+            width: 100%;
+        }
+        .navbar .nav > li > a {
+            line-height: 50px;
+            padding: 10px 12px;
+        }
+        .nav > li {
+            height: 70px;
+        }
+    }
+    
+    @media(min-width:1120px) {
+        .main-nav {
+            height: 50px !important;
+            background: #000;
+        }
+        .main-nav .navbar-header {
+            display: none;
+        }
+        .main-nav a {
+            color: #fff!important;
+            line-height: normal!important;
+        }
+        .main-nav div,
+        .main-nav ul {
+            height: 50px !important;
+        }
+        .main-nav ul.navbar-right {
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+        }
+    }
+    
+    @media(max-width:1119px) {
+        #description h2 {
+            font-size: 24px;
+        }
+        .post-nav {
+            display: none;
+        }
+        #up {
+            height: auto;
+        }
+        #up .contain ul {
+            height: auto;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
+            -ms-flex-line-pack: start;
+                align-content: flex-start;
+            -webkit-box-align: start;
+                -ms-flex-align: start;
+                    align-items: flex-start;
+        }
+        #up ul li {
+            display: block;
+            margin: 15px 0;
+            text-align: left;
+        }
+        .credit-block .content-left,
+        .credit-block .content-right {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .span-select,
+        .select-outer,
+        #select {
+            display: none!important;
+        }
+        .navbar .nav > li > a {
+            font-size: 20px;
+        }
+        .navbar-header {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .navbar > .contain {
+            padding: 0;
+        }
+        .navbar-collapse {
+            position: relative;
+            width: 101%;
+            background: #fff;
+            z-index: 500;
+            top: 10px;
+            left: -1px;
+            border-bottom: 3px solid #e8e8e8;
+            padding: 0;
+            margin: 0!important;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+    
+    #sub-nav .contain {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+    
+    @media(max-width:991px) {
+          .filter select{
+            display: block;
+        }
+      
+        .scroll-hidden{
+            width: 100%;
+            height: 60px;
+            overflow: hidden
+        }
+        ul.text-filters {
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            overflow-x: auto;
+            height: 70px;
+            overflow-y: hidden;
+            /* хром, сафари */}
+.ul.text-filters::-webkit-scrollbar { width: 0!important; }
+
+/* ie 10+ */
+.ul.text-filters { -ms-overflow-style: none!important; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+.ul.text-filters { overflow: -moz-scrollbars-none!important; }
+        
+        .SumoSelect > .optWrapper {
+            position: absolute!important;
+            left: auto;
+            width: 280px!important;
+        }
+        .filter div {
+            color: #000000;
+            font: 700 18px / 26px PFDinTextPro;
+            text-transform: uppercase;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+        }
+        .SumoSelect >.CaptionCont {
+            background: #F4F4F4;
+            width: 280px;
+        }
+        .concurents {
+            margin-bottom: 35px;
+        }
+        #header-sales .contain {
+            width: 100%;
+        }
+        #header-sales h1 {
+            font-size: 36px;
+            max-width: 900px;
+        }
+    }
+    
+    @media(max-width:900px) {
+        #description .btn {
+            margin-bottom: 25px;
+        }
+        .view a {
+            text-align: center;
+            padding-left: 0;
+            display: inherit;
+        }
+        margin-top: 25px;
+        padding-top: 25px;
+        .subtitles-row1 {
+            margin-bottom: 25px;
+        }
+        .subtitles {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -ms-flex-line-pack: center;
+                align-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+        }
+        .lent-left {
+            width: 100%;
+        }
+        .conditions {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            padding-left: 50px;
+        }
+        .credit-block .slogan {
+            font-size: 24px;
+        }
+        .banks {
+            margin: 0;
+            margin-top: 20px;
+        }
+        .features {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            padding-left: 50px;
+        }
+        .features-block {
+            margin-bottom: 45px;
+        }
+        .features-block:last-child {
+            margin-bottom: 0;
+        }
+        .text-main {
+            margin-top: 50px;
+        }
+        .special {
+            display: none;
+        }
+    }
+    
+    @media(max-width:768px) {
+        .wrap-li div {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -ms-flex-line-pack: center;
+                align-content: center;
+        }
+        #wrapper h2 {
+            font-size: 28px;
+        }
+        .form-row {
+            width: 100%;
+        }
+        .form-input {
+            width: 220px;
+            float: left;
+        }
+        .credit-block .slogan {
+            font-size: 18px;
+        }
+        .cont-flex-center {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -ms-flex-line-pack: center;
+                align-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+        }
+        .cont-flex-center div img {
+            margin-bottom: 40px;
+            margin-right: 0;
+        }
+        #sub-nav .contain {
+            width: 100%;
+            padding: 0;
+            text-align: center;
+        }
+        .btn-phone {
+            display: none;
+        }
+    }
+    
+    @media(max-width:767px) {
+    
+       
+    .contact-links{
+     text-align: center;
+    margin-bottom: 25px;
+    }
+        .b6-and-b12 {
+            margin-bottom: 35px;
+        }
+        .wrap-li {
+            padding: 0;
+        }
+        .wrap-li div {
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+        #category-help ul li {
+            float: none;
+            margin: 0px 25px 55px 0px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #E9E9E9 #E9E9E9 #B30D25;
+            width: 100%;
+            position: relative;
+            list-style: outside none none;
+            background-color: #fff;
+            height: auto;
+            min-height: 120px;
+            margin: 35px auto;
+        }
+        .banks .bank {
+            margin-right: 0;
+        }
+        .address {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .map {
+            padding: 0;
+            margin: 0;
+        }
+    }
+    
+    @media(max-width:660px) {
+        .concurents h2 {
+            font-size: 28px;
+        }
+        #wrapper h2 {
+            font-size: 24px;
+        }
+        #header-sales h1 {
+            font-size: 30px;
+        }
+    }
+    
+    @media(max-width:600px) {
+        #description .contain {
+            padding: 0;
+        }
+        #description .contain div {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .footer {
+            display: none;
+        }
+        .conditions li {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -ms-flex-line-pack: center;
+                align-content: center;
+            width: 100%;
+            padding: 0 5px;
+            margin-bottom: 15px;
+        }
+        .descr {
+            width: 100%;
+            margin: 0!important;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .conditions li i {
+            margin-bottom: 15px;
+        }
+        .privacy {
+            margin: 15px auto;
+        }
+        .banks {
+            display: none;
+        }
+        .slider-form-row {
+            padding: 0;
+            display: none;
+        }
+        .conditions {
+            width: 100%;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            padding-left: 0;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -ms-flex-line-pack: center;
+                align-content: center;
+            margin: 0;
+        }
+        .start-img {
+            margin-top: 50px;
+        }
+        .text-h2 {
+            font-size: 24px;
+        }
+        .text-h3 {
+            font-size: 20px;
+        }
+        .text-h4 {
+            font-size: 16px;
+        }
+        .text-main {
+            font-size: 32px;
+        }
+        .post-main-text {
+            font-size: 20px;
+        }
+        .text-start {
+            padding: 0;
+        }
+        .btn-green {
+            margin: 0 auto;
+        }
+        .text-h {
+            font-size: 26px;
+        }
+        .credit-block .slogan {
+            font-size: 14px;
+        }
+    }
+    
+    @media(max-width:480px) {
+        .filter-wrap{
+                display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+        }
+      
+        .filter-type form .form-type-select {
+            width: 220px;
+        }
+        
+        .filter select{
+            display: block!important;
+        }
+      
+        .scroll-hidden{
+            width: 100%!important;
+            height: 60px!important;
+            overflow: hidden!important;
+        }
+        ul.text-filters {
+            width: 100%!important;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex!important;
+            overflow-x: auto!important;
+            height: 70px!important;
+            overflow-y: hidden!important;
+            /* хром, сафари */}
+        ul.text-filters li{
+            width: auto;
+        }
+.ul.text-filters::-webkit-scrollbar { width: 0!important; }
+
+/* ie 10+ */
+.ul.text-filters { -ms-overflow-style: none!important; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+.ul.text-filters { overflow: -moz-scrollbars-none!important; }
+        
+        .filter select {
+    display: block!important;
+}
+        .pagination {
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+        ul.breadcrumbs li {
+            margin-bottom: 10px;
+        }
+        .jurist-info .online {
+            float: none;
+            width: 160px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 22px;
+        }
+        .jurist-info .jurist-title {
+            font: 500 23px PFDinTextPro;
+        }
+        .jurist-info .btn {
+            float: none;
+            width: 100%;
+            max-width: 320px;
+            margin: 0 auto;
+            margin-top: 25px;
+        }
+        .text-bottom {
+            font-size: 21px;
+            line-height: 1.2;
+            text-align: center;
+        }
+        #faq .contain {
+            padding: 0;
+        }
+        .slick-next {
+            right: 0;
+        }
+        .slick-prev {
+            left: 0;
+        }
+        .concurents span {
+            font-size: 18px;
+        }
+        .concurents h2 {
+            font-size: 24px!Important;
+        }
+        .concurents-list img {
+            margin-bottom: 20px;
+        }
+        .concurents-list {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+        }
+        #conc .contain {
+            padding: 0;
+        }
+        #our-service {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #category-help {
+            padding-bottom: 0;
+        }
+        #description {
+            padding-top: 20px;
+        }
+        #description p {
+            font-size: 13px;
+        }
+        .about-icon {
+            width: 50%;
+            float: left;
+            text-align: center;
+        }
+        iframe {
+            min-height: 150px !important;
+        }
+        .form-flex {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+        }
+        .form-input .fullwidth-input {
+            margin-top: 20px;
+        }
+        #sub-nav .phone {
+            font-size: 15px;
+        }
+        #header-sales h1 {
+            font-size: 21px;
+        }
+        .subtitles-row1,
+        .subtitles-row2 {
+            min-width: 300px;
+            float: none;
+            margin: 0 auto;
+            margin-bottom: 25px;
+        }
+        .subtitles {
+            color: #FFF;
+            font: 300 17px/55px PFDinTextPro;
+        }
+    }
+    
+    @media(max-width:400px) {
+        .expertiza-item {
+            width: 100%;
+        }
+        #sud tbody tr:last-child td {
+            font-size: 15px;
+        }
+        #sud tbody tr:last-child td {
+            font-size: 12px;
+        }
+        #sud th {
+            font-size: 14px;
+        }
+        .footer {
+            padding: 10px 15px;
+        }
+        .submit {
+            width: 249px;
+            background-size: cover;
+            height: 51px;
+        }
+        .submit:hover {
+            width: 249px;
+            background-size: cover;
+            height: 51px;
+        }
+        .text-h2 {
+            font-size: 18px;
+        }
+        .text-main {
+            font-size: 26px;
+        }
+        .post-main-text {
+            font-size: 16px;
+        }
+        .text-h {
+            font-size: 20px;
+        }
+    }
+    
+    @media(max-width:340px) {
+        .privacy .agreement {
+            width: 240px;
+        }
+    }
+    
+    .filter div {
+        color: #000000;
+        font: 700 18px / 26px PFDinTextPro;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-right: 3px;
+        width: 100%;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    
+    .SelectBox,
+    .SumoSelect > .optWrapper {
+        width: 90%;
+    }
+    
+    .SumoSelect >.CaptionCont {
+        background: #F4F4F4;
+    }
+    
+ 

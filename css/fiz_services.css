@@ -1,0 +1,1273 @@
+@charset "UTF-8";
+/* line 2, ../scss/fiz_services.scss */
+.menu-contact {
+  float: right;
+  text-align: right;
+  width: 210px;
+  padding-right: 20px;
+  padding-top: 10px;
+  height: 60px;
+}
+
+/* line 10, ../scss/fiz_services.scss */
+.menu-contact span {
+  color: #ffffff;
+  font: 400 20px BanderaProMedium;
+}
+
+/* line 14, ../scss/fiz_services.scss */
+.menu-contact a {
+  padding-left: 20px;
+  font: 400 14px PFDinTextPro;
+  text-decoration: underline;
+  background: url(../images/fiz_service/images/menu-contact.png) no-repeat scroll;
+  right: 0px;
+  color: #B30D25;
+}
+
+/* line 22, ../scss/fiz_services.scss */
+#header-uslugi {
+  background-color: #f2f2f2;
+  background: url(../images/fiz_service/images/head.png) no-repeat center bottom;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  width: 100%;
+  margin-top: -11px;
+  padding-bottom: 10px;
+}
+
+/* line 33, ../scss/fiz_services.scss */
+#header-uslugi img {
+  margin-top: 82px;
+}
+
+/* line 36, ../scss/fiz_services.scss */
+#header-uslugi h1 {
+  color: #0c0c0c !important;
+  font: 700 40px PFDinTextPro;
+  margin-top: 48px;
+  width: 610px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* line 44, ../scss/fiz_services.scss */
+#header-uslugi p {
+  color: #0c0c0c !important;
+  font: 25px PFDinTextPro;
+  width: 537px;
+  margin-bottom: 25px;
+}
+
+/* line 50, ../scss/fiz_services.scss */
+.btn-fiz {
+  background-color: #B30D25 !important;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* line 55, ../scss/fiz_services.scss */
+.btn-fiz span {
+  color: #FFF;
+  font: 400 18px PFDinTextPro !important;
+}
+
+/* line 59, ../scss/fiz_services.scss */
+.btn {
+  background-color: #B30D25 !important;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* line 64, ../scss/fiz_services.scss */
+.btn span {
+  color: #ffffff;
+  font: 400 18px PFDinTextPro !important;
+}
+
+/* line 68, ../scss/fiz_services.scss */
+#our-help {
+  text-align: center;
+  padding-top: 65px;
+}
+
+/* line 72, ../scss/fiz_services.scss */
+#our-help h2 {
+  color: #0c0c0c;
+  font: 37px PFDinTextPro !important;
+  margin-bottom: 23px;
+}
+
+/* line 77, ../scss/fiz_services.scss */
+.desk {
+  display: block;
+  color: #0c0c0c;
+  font: 400 30px PFDinTextPro;
+  margin-bottom: 60px;
+}
+
+/* line 83, ../scss/fiz_services.scss */
+.block-our-help {
+  background-color: #f4f4f4;
+  border: #212227 solid 5px;
+  float: left;
+  margin-right: 30px;
+  width: 370px;
+  height: 480px;
+  box-sizing: border-box;
+  line-height: 0;
+}
+
+/* line 93, ../scss/fiz_services.scss */
+.block-our-help:last-child {
+  margin-right: 0;
+}
+
+/* line 96, ../scss/fiz_services.scss */
+.block-our-help div {
+  padding: 30px 40px 25px 30px;
+  text-align: left;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 450px;
+}
+
+/* line 103, ../scss/fiz_services.scss */
+.block-our-help img {
+  max-width: 100%;
+}
+
+/* line 106, ../scss/fiz_services.scss */
+.block-our-help h3 {
+  color: #262626;
+  font: 500 24px PFDinTextPro;
+  text-align: left;
+  text-transform: uppercase;
+  position: relative;
+  border-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* line 115, ../scss/fiz_services.scss */
+.block-our-help h3:after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 74px;
+  height: 3px;
+  background: #B30D25;
+  bottom: -35px;
+  left: 0;
+}
+
+/* line 125, ../scss/fiz_services.scss */
+.block-our-help p {
+  color: #262626;
+  font: 400 18px PFDinTextPro;
+  margin-top: 65px;
+  text-align: left;
+}
+
+/* line 131, ../scss/fiz_services.scss */
+.block-our-help .btn-2 {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+}
+
+/* line 136, ../scss/fiz_services.scss */
+.r-line {
+  background-image: url(../images/fiz_service/Rectangle-2-copy.png) no-repeat scroll;
+}
+
+/* line 139, ../scss/fiz_services.scss */
+#begin {
+  text-align: center;
+  margin-top: 54px;
+  height: 370px;
+  background-color: #f5f5f5;
+}
+
+/* line 145, ../scss/fiz_services.scss */
+#begin h2 {
+  padding-top: 55px;
+  margin-top: 0;
+  font: 37px PFDinTextPro !important;
+}
+
+/* line 150, ../scss/fiz_services.scss */
+#begin .sub-text {
+  color: #0c0c0c;
+  font: 400 24px PFDinTextPro;
+}
+
+/* line 154, ../scss/fiz_services.scss */
+#begin input[type=text], .twopanels input, #because input[type=text], .popup input[type=text] {
+  height: 49px;
+  width: 299px;
+  border: 2px solid #B7B7B7;
+  color: #b7b7b7;
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+/* line 162, ../scss/fiz_services.scss */
+#begin input[type="text"], #because input[type="text"] {
+  margin-right: 35px;
+}
+
+/* line 165, ../scss/fiz_services.scss */
+#begin input[type=submit], #because input[type="submit"] {
+  background-color: #B30D25;
+}
+
+/* line 168, ../scss/fiz_services.scss */
+#begin input, #because input {
+  background-color: #f5f5f5;
+  float: left;
+}
+
+/* line 172, ../scss/fiz_services.scss */
+.btn-form {
+  border: 0;
+  height: 51px;
+  width: 255px;
+  font-size: 18px !important;
+  color: #FFF !important;
+}
+
+/* line 179, ../scss/fiz_services.scss */
+.attention-text {
+  color: #B30D25;
+}
+
+/* line 182, ../scss/fiz_services.scss */
+#begin form, #because form {
+  margin-bottom: 40px;
+  margin: 0 auto 27px;
+  width: 927px;
+}
+
+/* line 187, ../scss/fiz_services.scss */
+.twopanels {
+  background-color: #fff;
+  width: 100%;
+  padding-top: 50px;
+}
+
+/* line 192, ../scss/fiz_services.scss */
+#bankrot {
+  background: url(../images/fiz_service/bakrot-pig.png) no-repeat center bottom;
+}
+
+/* line 195, ../scss/fiz_services.scss */
+#collectors {
+  background: linear-gradient(to bottom, #fff, #00bbe5);
+}
+
+/* line 200, ../scss/fiz_services.scss */
+#collectors2 {
+  background: url(../images/fiz_service/man-back.png) no-repeat right bottom;
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* line 209, ../scss/fiz_services.scss */
+.left-part {
+  width: 480px;
+  text-align: center;
+  float: left;
+}
+
+/* line 214, ../scss/fiz_services.scss */
+.right-part {
+  width: 480px;
+  text-align: center;
+  float: right;
+}
+
+/* line 219, ../scss/fiz_services.scss */
+.twopanels h2 {
+  color: #B30D25 !important;
+  font: 700 39px PFDinTextPro !important;
+  text-transform: uppercase;
+  height: 124px;
+  margin-top: 0;
+  align: center;
+  margin: 0 auto;
+}
+
+/* line 228, ../scss/fiz_services.scss */
+.twopanels .kvadrat {
+  width: 378px;
+  border: 5px solid #ffd000;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 235, ../scss/fiz_services.scss */
+.kvadrat {
+  padding: 20px 0px;
+  background-color: #fff;
+}
+
+/* line 236, ../scss/fiz_services.scss */
+.kvadrat span {
+  color: #0c0c0c;
+  font: 400 33px PFDinTextCompPro;
+}
+
+/* line 240, ../scss/fiz_services.scss */
+.kvadrat form {
+  margin-top: 35px;
+}
+
+/* line 243, ../scss/fiz_services.scss */
+.twopanels input[type=text], .popup input[type=text] {
+  height: 49px;
+  width: 299px;
+  border: 2px solid #B7B7B7;
+  color: #B7B7B7;
+  font-size: 25px;
+  padding: 0px 20px;
+  margin: 0 auto 20px;
+}
+
+/* line 252, ../scss/fiz_services.scss */
+.twopanels input[type=submit], .popup input[type=submit] {
+  font-size: 18px !important;
+  color: #fff !important;
+  border: 0 !important;
+  height: 45px !important;
+  width: 301px !important;
+  cursor: pointer !important;
+}
+
+/* line 260, ../scss/fiz_services.scss */
+.sub-kvadrat {
+  background-color: #ffd000;
+  width: 330px;
+  padding: 17px 18px;
+  margin: 0 auto;
+  color: #343434;
+  font: 400 17px PFDinTextPro;
+  margin-top: -3px;
+  text-align: justify;
+}
+
+/* line 270, ../scss/fiz_services.scss */
+.question {
+  border-left: 6px solid #212227;
+  margin-bottom: 45px;
+}
+
+/* line 274, ../scss/fiz_services.scss */
+.question h3 {
+  color: #202226;
+  font: 700 16px PFDinTextPro !important;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 0 !important;
+  border: 0 !important;
+  margin: 0 0 0 20px !important;
+}
+
+/* line 283, ../scss/fiz_services.scss */
+.question div {
+  color: #202226;
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 20px;
+  font: 400 17px PFDinTextPro;
+}
+
+/* line 290, ../scss/fiz_services.scss */
+#tasks {
+  text-align: center;
+  height: 751px;
+  padding-top: 55px;
+}
+
+/* line 295, ../scss/fiz_services.scss */
+#tasks .row div {
+  background-color: #f4f4f4;
+  border: 5px solid #212227;
+  box-sizing: border-box;
+  height: 191px;
+  width: 378px;
+  float: left;
+  margin: 0 33px 23px 0;
+  color: #262626;
+  font: 500 24px PFDinTextPro;
+  text-transform: uppercase;
+  padding-top: 54px;
+}
+
+/* line 308, ../scss/fiz_services.scss */
+#tasks .row div:last-child {
+  margin: 0 0 23px 0;
+}
+
+/* line 311, ../scss/fiz_services.scss */
+#tasks .row:last-child div {
+  margin: 0 33px 0 0;
+}
+
+/* line 314, ../scss/fiz_services.scss */
+#tasks .row:last-child div:last-child {
+  margin: 0;
+}
+
+/* line 317, ../scss/fiz_services.scss */
+#because {
+  background-color: #F5F5F5;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  padding: 64px 0 67px;
+}
+
+/* line 324, ../scss/fiz_services.scss */
+#because h2 {
+  margin-top: 0;
+}
+
+/* line 327, ../scss/fiz_services.scss */
+#because span {
+  color: #0c0c0c;
+  font: italic 37px PFDinTextPro;
+}
+
+/* line 331, ../scss/fiz_services.scss */
+#because .row {
+  margin-bottom: 64px;
+}
+
+/* line 334, ../scss/fiz_services.scss */
+.because-block {
+  width: 232px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+/* line 339, ../scss/fiz_services.scss */
+.because-block:last-child {
+  margin-right: 0;
+}
+
+/* line 342, ../scss/fiz_services.scss */
+.because-block p {
+  color: #0c0c0c;
+  font: 400 15px PFDinTextPro;
+  text-align: justify;
+}
+
+/* line 347, ../scss/fiz_services.scss */
+.because-block h4 {
+  color: #0c0c0c;
+  font: 500 20px PFDinTextPro;
+}
+
+/* line 351, ../scss/fiz_services.scss */
+#because form {
+  margin-top: 59px;
+}
+
+/* line 354, ../scss/fiz_services.scss */
+#our-scheme {
+  text-align: center;
+  padding-bottom: 135px;
+}
+
+/* line 360, ../scss/fiz_services.scss */
+.schem div {
+  float: left;
+  width: 210px;
+  margin-right: 40px;
+}
+
+/* line 365, ../scss/fiz_services.scss */
+.schem div div {
+  margin: 0 auto;
+  width: 100px;
+  float: none;
+}
+
+/* line 370, ../scss/fiz_services.scss */
+.schem div h4 {
+  color: #0C0C0C;
+  font: 500 20px PFDinTextPro;
+}
+
+/* line 374, ../scss/fiz_services.scss */
+.schem div p {
+  margin-top: 21px;
+  color: #0c0c0c;
+  font: 400 18px PFDinTextPro;
+  text-align: justify;
+}
+
+/* line 380, ../scss/fiz_services.scss */
+#our-service {
+  background-color: #f5f5f5;
+  padding: 80px 0 70px;
+  text-align: center;
+}
+
+/* line 385, ../scss/fiz_services.scss */
+.serv div {
+  background-color: #ffffff;
+  height: 340px;
+  width: 175px;
+  float: left;
+  margin-right: 20px;
+  padding: 39px 30px 0 30px;
+}
+
+/* line 393, ../scss/fiz_services.scss */
+.serv div:last-child {
+  margin-right: 0;
+}
+
+/* line 396, ../scss/fiz_services.scss */
+.serv img {
+  margin-right: 15px;
+  float: left;
+}
+
+/* line 400, ../scss/fiz_services.scss */
+.serv p {
+  color: #0c0c0c;
+  font: 700 11px PFDinTextPro;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+/* line 406, ../scss/fiz_services.scss */
+.serv p span {
+  font: 700 15px PFDinTextPro;
+}
+
+/* line 409, ../scss/fiz_services.scss */
+.r-text {
+  color: #B30D25;
+  text-transform: none;
+}
+
+/* line 413, ../scss/fiz_services.scss */
+.serv ul {
+  margin-top: 37px;
+  text-align: left;
+  color: #454545;
+  font: 400 15px/26px PFDinTextPro;
+  position: relative;
+}
+
+/* line 420, ../scss/fiz_services.scss */
+.serv ul:before {
+  position: fixed;
+  display: block;
+  content: '';
+  height: 4px;
+  width: 140px;
+  background: rgba(54, 54, 54, 0.11);
+  bottom: -20px;
+  left: 0;
+}
+
+/* line 430, ../scss/fiz_services.scss */
+.serv ul li {
+  list-style: inside;
+}
+
+/* line 433, ../scss/fiz_services.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 438, ../scss/fiz_services.scss */
+#we-know {
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 80px 0;
+}
+
+/* line 443, ../scss/fiz_services.scss */
+#we-know h2 {
+  color: #ffffff !important;
+  font: italic 37px PFDinTextPro !important;
+}
+
+/* line 447, ../scss/fiz_services.scss */
+#we-know span {
+  color: #ffffff;
+  font: 400 30px PFDinTextPro;
+  margin-right: 64px;
+}
+
+/* line 452, ../scss/fiz_services.scss */
+.btn-3 {
+  padding: 17px 30px;
+}
+
+/* line 455, ../scss/fiz_services.scss */
+.btn-3 span {
+  margin: 0 !important;
+}
+
+/* line 458, ../scss/fiz_services.scss */
+#banks {
+  text-align: center;
+  padding: 90px 0 103px;
+}
+
+/* line 462, ../scss/fiz_services.scss */
+#banks h2 {
+  font: 37px PFDinTextPro !important;
+}
+
+/* line 465, ../scss/fiz_services.scss */
+.banks-list {
+  width: 1100px;
+  margin: 0px auto;
+}
+/* line 469, ../scss/fiz_services.scss */
+.banks-list .ib {
+  float: left;
+}
+/* line 473, ../scss/fiz_services.scss */
+.banks-list img {
+  display: block;
+  float: left;
+}
+
+/* line 478, ../scss/fiz_services.scss */
+.banks-list:last-child {
+  margin: 0;
+}
+
+/* line 481, ../scss/fiz_services.scss */
+.list-item {
+  width: 333px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+/* line 487, ../scss/fiz_services.scss */
+.list-title {
+  color: #0c0c0c;
+  font: 500 15px PFDinTextPro;
+  text-transform: uppercase;
+}
+
+/* line 492, ../scss/fiz_services.scss */
+.list-desc {
+  color: #808080;
+  font: italic 16px PFDinTextPro;
+}
+
+/* line 496, ../scss/fiz_services.scss */
+.success {
+  color: #FFF;
+  font: 500 16px PFDinTextPro;
+  background-color: #41B500;
+  text-transform: uppercase;
+  padding: 6px 38px;
+}
+
+/* line 503, ../scss/fiz_services.scss */
+.banks-right {
+  display: inline-block;
+  margin-left: 18px;
+  float: left;
+  text-align: left;
+}
+
+/* line 509, ../scss/fiz_services.scss */
+.banks-right {
+  width: 160px;
+}
+
+/* line 512, ../scss/fiz_services.scss */
+#banks .container > span {
+  color: #0c0c0c;
+  font: 500 26px PFDinTextPro;
+}
+
+/* line 516, ../scss/fiz_services.scss */
+#sotr {
+  text-align: center;
+  padding: 61px 0 60px;
+  background-color: #f5f5f5;
+}
+
+/* line 521, ../scss/fiz_services.scss */
+#dolg h2 {
+  color: #0c0c0c;
+  font: 500 37px PFDinTextPro !important;
+  width: 700px;
+  margin: 0 auto;
+}
+
+/* line 527, ../scss/fiz_services.scss */
+#dolg {
+  background: url(../images/fiz_service/pattern.png) no-repeat;
+  height: 380px;
+  background-size: cover;
+  text-align: center;
+  padding: 90px 0 60px;
+}
+
+/* line 534, ../scss/fiz_services.scss */
+#dolg .container div {
+  border-color: #FFD000;
+  border-style: solid;
+  border-width: 5px;
+  height: 120px;
+  width: 514px;
+  box-sizing: border-box;
+  padding: 25px 0px 0px 0px;
+  margin: 40px auto 30px;
+}
+
+/* line 544, ../scss/fiz_services.scss */
+#dolg .container div span {
+  color: #B30D25;
+  font: 700 48px PFDinTextPro;
+}
+
+/* line 548, ../scss/fiz_services.scss */
+#get {
+  text-align: center;
+  background: url(../images/fiz_service/Blue-Sea-Sky-with-Clouds-HD-Wallpapers.png);
+  background-size: cover;
+  padding: 90px 0 0 90px;
+}
+
+/* line 554, ../scss/fiz_services.scss */
+#get h2 {
+  color: #ffffff;
+  font: 700 48px BanderaPro;
+}
+
+/* line 558, ../scss/fiz_services.scss */
+#get h2 span {
+  color: #ffd100;
+  font: 700 48px BanderaPro;
+}
+
+/* line 563, ../scss/fiz_services.scss */
+#map {
+  background: transparent url("images/map.jpg") repeat scroll center bottom;
+}
+
+/* line 566, ../scss/fiz_services.scss */
+.contact-form {
+  background-color: #B30D25;
+  width: 40%;
+  text-align: center;
+  padding: 45px 0;
+  float: right;
+}
+
+/* line 573, ../scss/fiz_services.scss */
+.contact-form p {
+  color: #ffffff;
+  font: 300 30px PFDinTextCompPro;
+  margin-top: 27px;
+}
+
+/* line 578, ../scss/fiz_services.scss */
+.contact-form p span {
+  color: #ffffff;
+  font: 700 35px PFDinTextCompPro;
+}
+
+/* line 582, ../scss/fiz_services.scss */
+.contact-form form {
+  margin: 32px auto 0;
+  width: 90%;
+}
+
+/* line 586, ../scss/fiz_services.scss */
+.contact-form input[type=text] {
+  background-color: #B30D25;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  color: #ffffff;
+  font: 400 13pt/30pt 'Myriad Pro';
+  height: 45px;
+  width: 45%;
+  padding-left: 18px;
+}
+
+/* line 595, ../scss/fiz_services.scss */
+.contact-form textarea {
+  background-color: #B30D25;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  color: #ffffff;
+  font: 400 13pt/30pt 'Myriad Pro';
+  resize: none;
+  width: 443px;
+  height: 125px;
+  margin-top: 18px;
+  padding-left: 18px;
+  display: inline;
+}
+
+/* line 607, ../scss/fiz_services.scss */
+.copywrite1 {
+  color: #ffffff;
+  font: 400 14px / 22px ProximaNova;
+  text-align: left;
+}
+
+/* line 612, ../scss/fiz_services.scss */
+.soc {
+  margin: 0px auto;
+  padding-top: 15px;
+  color: white;
+  font: 400 17px "Myriad Pro";
+}
+
+/* line 618, ../scss/fiz_services.scss */
+.copywrite2 {
+  text-align: right;
+  color: #ffd100;
+  font: 400 14px / 22px ProximaNova;
+}
+
+/* line 623, ../scss/fiz_services.scss */
+footer {
+  background-color: #0a0c11;
+  height: 60px;
+}
+
+/* line 627, ../scss/fiz_services.scss */
+#slider-m {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 80px 0;
+}
+
+/* line 632, ../scss/fiz_services.scss */
+#slider-m .container {
+  position: relative;
+  display: block;
+}
+
+/* line 636, ../scss/fiz_services.scss */
+.left-slide {
+  width: 50%;
+  float: left;
+}
+
+/* line 640, ../scss/fiz_services.scss */
+.left-slide .name {
+  color: #262626;
+  font: 500 48px PFDinTextPro;
+}
+
+/* line 644, ../scss/fiz_services.scss */
+.left-slide div {
+  text-align: left;
+  width: 450px;
+  margin: 150px 200px 0px;
+}
+
+/* line 649, ../scss/fiz_services.scss */
+.left-slide p {
+  color: #7a7a7a;
+  font: italic 20px PFDinTextPro;
+}
+
+/* line 653, ../scss/fiz_services.scss */
+.left-slide p span {
+  color: #373737;
+  font: 700 20px PFDinTextPro;
+  text-transform: uppercase;
+}
+
+/* line 658, ../scss/fiz_services.scss */
+.left-slide p .red {
+  color: #B30D25;
+  font: italic 700 20px PFDinTextPro;
+  text-transform: none;
+  text-align: center;
+}
+
+/* line 664, ../scss/fiz_services.scss */
+.right-slide {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  float: right;
+}
+
+/* line 670, ../scss/fiz_services.scss */
+.right-slide img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 675, ../scss/fiz_services.scss */
+#slider {
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+}
+
+/* line 680, ../scss/fiz_services.scss */
+.slide {
+  /* ╨б╨╗╨░╨╣╨┤ */
+  width: 100%;
+  height: 100%;
+}
+
+/* line 684, ../scss/fiz_services.scss */
+.sli-links {
+  /* ╨Ъ╨╜╨╛╨┐╨║╨╕ ╤Б╨╝╨╡╨╜╤Л ╤Б╨╗╨░╨╣╨┤╨╛╨▓ */
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* line 687, ../scss/fiz_services.scss */
+.sli-links .control-slide {
+  margin: 2px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background: url(radioBg.png) center bottom no-repeat;
+}
+
+/* line 695, ../scss/fiz_services.scss */
+.sli-links .control-slide:hover {
+  cursor: pointer;
+  background-position: center center;
+}
+
+/* line 698, ../scss/fiz_services.scss */
+.sli-links .control-slide.active {
+  background-position: center top;
+}
+
+/* line 700, ../scss/fiz_services.scss */
+#prewbutton, #nextbutton {
+  /* ╨б╤Б╤Л╨╗╨║╨░ "╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╣" ╨╕ "╨Я╨╡╨┤╤Л╨┤╤Г╤Й╨╕╨╣" */
+  display: block;
+  width: 15px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  text-indent: -999px;
+  background: url(arrowBg.png) left center no-repeat;
+  opacity: 0.8;
+  z-index: 3;
+  outline: none !important;
+}
+
+/* line 712, ../scss/fiz_services.scss */
+#prewbutton {
+  left: 10px;
+}
+
+/* line 713, ../scss/fiz_services.scss */
+#nextbutton {
+  right: 10px;
+  background: url(arrowBg.png) right center no-repeat;
+}
+
+/* line 716, ../scss/fiz_services.scss */
+#prewbutton:hover, #nextbutton:hover {
+  opacity: 1;
+}
+
+/* line 719, ../scss/fiz_services.scss */
+#modal {
+  background-color: rgba(0, 0, 0, 0.66);
+  display: none;
+}
+
+/* line 723, ../scss/fiz_services.scss */
+#mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  background-color: #000;
+  display: none;
+}
+
+/* line 731, ../scss/fiz_services.scss */
+#boxes .window {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  -top: 40px;
+  width: 850px;
+  height: 600px;
+  display: none;
+  z-index: 9999;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* line 743, ../scss/fiz_services.scss */
+#boxes #dialog {
+  width: 840px;
+  height: 537px;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+/* line 749, ../scss/fiz_services.scss */
+.popup .content {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 754, ../scss/fiz_services.scss */
+.popup h2 {
+  font-size: 25px;
+}
+
+/* line 757, ../scss/fiz_services.scss */
+.popup form {
+  width: 300px;
+  margin: 0px auto;
+}
+
+/* line 761, ../scss/fiz_services.scss */
+.popup .content .subtitle {
+  color: #0c0c0c;
+  font: 400 18px PFDinTextPro;
+  display: block;
+  margin: 30px 0;
+}
+
+/* ╨С╨░╨╖╨╛╨▓╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ ╤Б╨╗╨╛╤П ╨╖╨░╤В╨╡╨╝╨╜╨╡╨╜╨╕╤П ╨╕ ╨╝╨╛╨┤╨░╨╗╤М╨╜╨╛╨│╨╛ ╨╛╨║╨╜╨░  */
+/* line 768, ../scss/fiz_services.scss */
+.overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  /* ╤Д╨╛╨╜ ╨╖╨░╤В╨╡╨╝╨╜╨╡╨╜╨╕╤П */
+  background-color: rgba(0, 0, 0, 0.65);
+  position: fixed;
+  /* ╤Д╨╕╨║╤Б╨╕╤А╨╛╨▓╨░╨╜╨╜╨╛╨╡ ╨┐╨╛╤Ж╨╕╨╖╨╕╨╛╨╜╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ */
+  cursor: default;
+  /* ╤В╨╕╨┐ ╨║╤Г╤А╤Б╨░╤А╨░ */
+}
+
+/* ╨░╨║╤В╨╕╨▓╨╕╤А╤Г╨╡╨╝ ╤Б╨╗╨╛╨╣ ╨╖╨░╤В╨╡╨╝╨╜╨╡╨╜╨╕╤П */
+/* line 781, ../scss/fiz_services.scss */
+.overlay:target {
+  display: block;
+}
+
+/* ╤Б╤В╨╕╨╗╨╕ ╨╝╨╛╨┤╨░╨╗╤М╨╜╨╛╨│╨╛ ╨╛╨║╨╜╨░ */
+/* line 785, ../scss/fiz_services.scss */
+.popup {
+  top: -100%;
+  right: 0;
+  left: 50%;
+  z-index: 20;
+  margin: 0;
+  width: 85%;
+  width: 840px;
+  /* ╤Д╨╕╨║╤Б╨╕╤А╨╛╨▓╨░╨╜╨╜╨╛╨╡ ╨┐╨╛╨╖╨╕╤Ж╨╕╨╛╨╜╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡, ╨╛╨║╨╜╨╛ ╤Б╤В╨░╨▒╨╕╨╗╤М╨╜╨╛ ╨┐╤А╨╕ ╨┐╤А╨╛╨║╤А╤Г╤В╨║╨╡ */
+  position: fixed;
+  padding: 40px 0;
+  background: #f5f5f5;
+}
+
+/* ╨░╨║╤В╨╕╨▓╨╕╤А╤Г╨╡╨╝ ╨╝╨╛╨┤╨░╨╗╤М╨╜╤Л╨╣ ╨▒╨╗╨╛╨║ */
+/* line 801, ../scss/fiz_services.scss */
+.overlay:target + .popup {
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  top: 15%;
+}
+
+/* line 808, ../scss/fiz_services.scss */
+.block2_cont {
+  width: 1000px;
+  margin: 20px 0px 0px 0px;
+}
+
+/* line 812, ../scss/fiz_services.scss */
+.bl2_bg, .front, .back {
+  width: 310px;
+  height: 140px;
+  margin: 0px 33px 23px 0px;
+  color: #262626;
+  font: 500 19px PFDinTextPro;
+  text-transform: uppercase;
+}
+
+/* line 822, ../scss/fiz_services.scss */
+.bl2_bg {
+  cursor: pointer;
+  float: left;
+}
+
+/* line 826, ../scss/fiz_services.scss */
+.bl2_tri {
+  position: relative;
+  background-color: #F4F4F4;
+  width: 310px;
+  height: 140px;
+  border: 5px solid #212227;
+  box-sizing: border-box;
+}
+
+/* line 834, ../scss/fiz_services.scss */
+.bl2_tri:hover {
+  background-color: #fff;
+  border-color: #B30D25;
+}
+
+/* line 838, ../scss/fiz_services.scss */
+.front {
+  z-index: 2;
+  width: 310px;
+}
+
+/* line 842, ../scss/fiz_services.scss */
+.front, .back {
+  backface-visibility: hidden;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+}
+
+/* line 848, ../scss/fiz_services.scss */
+.back {
+  display: table;
+}
+
+/* line 852, ../scss/fiz_services.scss */
+.bl2_ots {
+  margin-right: 0px;
+}
+
+/* line 853, ../scss/fiz_services.scss */
+.bl2_bg span {
+  display: block;
+  margin-top: 35px;
+}
+
+/* line 855, ../scss/fiz_services.scss */
+.bl2_bg span::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 56px;
+  height: 3px;
+  background: #B30D25 none repeat scroll 0% 0%;
+  bottom: 20px;
+  left: 122px;
+}
+
+/* line 866, ../scss/fiz_services.scss */
+.bl2_bg a {
+  margin-top: 60px;
+  text-align: center;
+  color: #000;
+  height: 170px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 378px;
+}
+
+/* line 875, ../scss/fiz_services.scss */
+.back div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 879, ../scss/fiz_services.scss */
+.bl2_bg a:hover {
+  color: #B30D25;
+}
+
+/* line 882, ../scss/fiz_services.scss */
+#rot {
+  text-align: center;
+  padding-top: 55px;
+}
+
+/* line 886, ../scss/fiz_services.scss */
+.sendsubmit {
+  height: 41px;
+  width: 71px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent url("../images/mail.png") no-repeat center top;
+  text-indent: -1000em;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 897, ../scss/fiz_services.scss */
+.close {
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  padding: 0;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  background-color: rgba(61, 61, 61, 0.8);
+  -webkit-box-shadow: 0px 0px 10px #000;
+  -moz-box-shadow: 0px 0px 10px #000;
+  box-shadow: 0px 0px 10px #000;
+  text-align: center;
+  text-decoration: none;
+  font: 13px/20px 'Tahoma', Arial, sans-serif;
+  font-weight: bold;
+  -webkit-transition: all ease .8s;
+  -moz-transition: all ease .8s;
+  -ms-transition: all ease .8s;
+  -o-transition: all ease .8s;
+  transition: all ease .8s;
+}
+
+/* line 924, ../scss/fiz_services.scss */
+.close:before {
+  color: rgba(255, 255, 255, 0.9);
+  content: "X";
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+  font-size: 12px;
+}
+
+/* line 930, ../scss/fiz_services.scss */
+.close:hover {
+  background-color: rgba(252, 20, 0, 0.8);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}

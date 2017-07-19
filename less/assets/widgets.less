@@ -1,0 +1,229 @@
+.widget {
+	display: block;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #d9dadf;
+	.border-radius(4px);
+	.box-sizing(border-box);
+	
+	.widget-comments-text {
+		font-size: 16px;
+		color: #bbbcc4;
+		float: left;
+		margin-top: 4px;
+	}
+	
+	.stars-view {
+		.inline-block();
+		font-size: 0;
+		position: relative;
+		top: 1px;
+		vertical-align: top;
+		
+		.star-item {
+			margin-right: 3px;
+		}
+	}
+}
+
+.widget-inner {
+	padding: 15px 20px 20px;
+}
+
+.widget-title {
+	#roboto > .regular;
+	font-size: 20px;
+	line-height: 25px;
+	color: #353a52;
+	margin-bottom: 5px;
+	
+	.widget-logo {
+		left: 3px;
+	}
+
+	&.gray {
+		color: #bbbcc4;
+	}
+}
+
+.widget-logo {
+	position: relative;
+	top: 7px;
+	.inline-block();
+	vertical-align: top;
+	width: 54px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-image: url('/images/widget/logo.png');
+}
+
+.widget-balloon-container {
+	position: relative;
+	height: 235px;
+	margin-bottom: 20px;
+}
+
+.widget-balloon {
+	position: absolute;
+	bottom: 0;
+	font-size: 13px;
+	line-height: 18px;
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #d9dadf;
+	padding: 16px 20px;
+	.border-radius(15px);
+	.box-sizing(border-box);
+	
+	&:after {
+		content: '';
+		position: absolute;
+		top: 100%;
+		left: 100%;
+		display: block;
+		width: 23px;
+		height: 16px;
+		background-repeat: no-repeat;
+		background-position: top left;
+		background-image: url('/images/b/banner-box-comment-bordered.png');
+		margin: -14px 0 0 -14px;
+	}
+	
+	.widget-balloon-title {
+		line-height: 18px;
+	}
+	
+	.text {
+		overflow: hidden;
+		margin-top: 5px;
+		max-height: 126px;
+	}
+	
+	strong {
+		margin-right: 5px;
+	}
+}
+
+.widget-button {
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	outline: 0;
+	border: 1px solid #6a4bae;
+	background-color: #6a4bae;
+	color: #fff;
+	font-family: @fontBase;
+	font-size: 16px;
+	line-height: 22px;
+	padding: 5px 15px;
+	.border-radius(4px);
+	.box-sizing(border-box);
+	margin-top: 15px;
+}
+
+/*
+ * THE DARK SIDE!
+ */
+
+.widget-dark {
+	background-color: #353a52;
+	border-color: #353a52;
+	
+	.widget-comments-text {
+		color: #868997;
+	}
+	
+	.widget-title {
+		color: #eaecf3;
+
+		&.gray {
+			color: #868997;
+		}
+	}
+	
+	.widget-logo {
+		background-image: url('/images/widget/logo-white.png');
+	}
+	
+	.widget-balloon {
+		border-color: #fff;
+		
+		&:after {
+			background-image: url('/images/b/banner-box-comment.png');
+		}
+	}
+}
+
+/*
+ * XS, S, M, L
+ */
+
+
+.widget-210x40 {
+	width: 210px;
+	height: 40px;
+	border-color: transparent;
+	background: none;
+	font-size: 0;
+	
+	.widget-inner {
+		padding: 5px 15px;
+	}
+	
+	.stars-view {
+		margin-top: 3px;
+		margin-left: 10px;
+	}
+}
+
+.widget-240x80 {
+	width: 240px;
+	height: 80px;
+	
+	.widget-title {
+		position: relative;
+		top: -3px;
+		font-size: 16px;
+		line-height: 25px;
+		font-family: @fontBase;
+		margin-bottom: 2px;
+		
+		.widget-logo {
+			top: 5px;
+		}
+	}
+
+	.widget-stars {
+		float: left;
+		margin-right: 3px;
+	}
+
+	.widget-inner {
+		padding-right: 0px;
+	}
+
+	.nocomments {
+
+	}
+}
+
+.widget-240x160 {
+	width: 240px;
+	height: 160px;
+	
+	.widget-balloon-container {
+		display: none;
+	}
+}
+
+.widget-240x400 {
+	width: 240px;
+	height: 400px;
+
+	.nocomments {
+		text-align: center;
+		padding-top: 90px;
+	}
+}

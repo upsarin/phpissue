@@ -1,0 +1,53 @@
+.jumbotron {
+    text-align: center;
+    margin: 0px 0px 10px -10px;
+}
+.personal-desktop .col-6.col-sm-6.col-lg-4 {
+    margin: 5px;
+    color: inherit;
+    background-color: #eee;
+    width: 296px;
+    height: 280px;
+}
+.personal-desktop h2{
+    width: 100%;
+    background: #b30d25;
+    color: white !important;
+}
+.btn {
+    background-color: #B30D25 !important;
+    box-shadow: 0px 3px 0px 0px #7b0012;
+    width: 157px;
+    height: 30px;
+    color: #ffffff !important;
+    font: 700 16px/30px PFDinTextPro;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(16, 104, 33, 0.75);
+}
+.container {
+    margin: 0px auto 100px auto;
+}
+#edit-list ul li {
+    display: block !important;
+    border: 1px solid black;
+    max-width: 180px;
+    margin-top: 10px;
+}
+#edit-list li img {
+    height: 100px;
+    width: 180px;
+}
+#edit-list li a {
+    background: none;
+    display:block;
+}
+.foto_previews li img {
+    max-width: 200px;
+}
+.desktop-text {
+    overflow: hidden;
+    max-height: 155px;
+}

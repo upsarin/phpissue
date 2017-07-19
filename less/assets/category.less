@@ -1,0 +1,89 @@
+.category-groups {
+	position: relative;
+	margin: -20px 0 0 -30px;
+	font-size: 0;
+	max-width: 1050px;
+}
+
+.category-group {
+	width: 320px;
+	max-width: 100%;
+	margin: 20px 0 0 30px;
+	font-size: 13px;
+	line-height: 20px;
+	vertical-align: top;
+	.inline-block();
+	
+	.link {
+		margin-right: 7px;
+	}
+	
+	a {
+		color: #3d3f45;
+		
+		&:hover {
+			color: @linkColor;
+		}
+	}
+}
+
+.category-column {
+	float: left;
+	width: 22%;
+	margin-right: 3%;
+}
+
+.category-two-columns {
+	width: 690px;
+}
+
+.category-country {
+	margin-left: -20px;
+	
+	a {
+		color: #3d3f45;
+		
+		&:hover {
+			color: @linkColor;
+		}
+	}
+	
+	ul {
+		width: 180px;
+		margin-left: 20px;
+		
+		li {
+			line-height: 35px;
+		}
+	}
+}
+
+.category-city-search {
+	position: relative;
+	
+	input.input {
+		padding-left: 27px;
+		padding-right: 27px;
+		background: url('/images/search-gray.png') no-repeat 9px 4px;
+		
+		&::-ms-clear {
+			display: none;
+		}
+	}
+}
+
+.category-specialists {
+	width: 690px;
+	padding: 20px 0 0;
+	margin: 20px 0 0;
+	border-color: @borderColor;
+	border-style: solid;
+	border-width: 1px 0 0;
+
+	@media (min-width: 1175px) {
+		width: 320px;
+		padding: 0 0 0 30px;
+		margin: 0;
+		border-width: 0 0 0 1px;
+	}
+}
